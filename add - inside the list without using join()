@@ -6,6 +6,7 @@ for i in range(len(c)):
        c[i]=b
 print(c)
  for i in range(len(c)):
+    print(c[i],end="")
     if i!=len(c)-1:
         print("-",end="")
 
