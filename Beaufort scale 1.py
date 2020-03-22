@@ -1,17 +1,17 @@
 #ans
 a=int(input())
 if a<1:
-    print("wind condition is Calm")
+    print("Wind condition is Calm")
 elif a>=1 and a<=3:
     print("wind condition is Light Air")
 elif a>=4 and a<=27:
-    print("wind condition is Breeze")
+    print("Wind condition is Breeze")
 elif a>=28 and a<=47:
-    print("wind condition is Gale")
+    print("Wind condition is Gale")
 elif a>=48 and a<=63:
-    print("wind condition is Storm")
+    print("Wind condition is Storm")
 elif a>63:
-    print("wind condition is Hurricane")
+    print("Wind condition is Hurricane")
     
  
  
